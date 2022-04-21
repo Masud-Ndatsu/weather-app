@@ -37,6 +37,7 @@ header a {
 img.portrait {
   max-width: 350px;
   width: 100%;
+  margin-top: 1rem;
 }
 
 /* SEARCH FORM */
