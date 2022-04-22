@@ -11,7 +11,7 @@ const forecast = (latitude, longitude, callback) => {
     } else {
       callback(
         undefined,
-        `Clear throughout the day. It is currently ${body.current.temperature}. The weather feels like ${body.current.feelslike} inside here. the humidity is ${body.current.humidity}.`
+        `It is currently ${body.current.temperature} outside. The weather feels like ${body.current.feelslike} inside here. the humidity is ${body.current.humidity}.`
       );
     }
   });
